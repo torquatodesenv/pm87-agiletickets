@@ -25,7 +25,7 @@ public class Sessao {
 
 	@Type(type="org.jadira.usertype.dateandtime.joda.PersistentDateTime")
 	private DateTime inicio;
-
+	
 	private Integer duracaoEmMinutos;
 
 	private Integer totalIngressos = 0;
