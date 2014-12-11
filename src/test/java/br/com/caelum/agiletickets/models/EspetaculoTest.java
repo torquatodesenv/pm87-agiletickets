@@ -38,7 +38,7 @@ public class EspetaculoTest {
 		int diaInicio =inicio.getDayOfMonth();
 		List<Sessao> sessoes = espetaculo.criaSessoes(inicio, fim, horario, Periodicidade.DIARIA);
 		
-		Assert.assertEquals(12,sessoes.size());
+		Assert.assertEquals(11,sessoes.size());
 		
 		for(int i = 0;i<sessoes.size();i++)
 		{
